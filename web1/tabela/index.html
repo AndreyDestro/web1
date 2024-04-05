@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td colspan="3">Dados pessoais:</td>
+        </tr>
+        <tr>
+            <td>Nome do aluno:</td>
+            <td colspan="2"> <input type="text"> </td> 
+        </tr>
+        <tr>
+            <td>Nascimento (dd/mm/aaaa):</td>
+            <td colspan="2">
+              <input type="text" size="2">/<input type="text" size="2">/<input type="text" size="4">
+            </td>
+        </tr>
+        <tr>
+            <td>Nome da Mãe:</td>
+            <td colspan="2"><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Nome do Pai:</td>
+            <td colspan="2"><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Telefone:</td>
+            <td colspan="2">
+                DDD (<input type="text" size="2">)
+                Tel: <input type="text" size="8">
+                Ramal: <input type="text" size="3">
+            </td>
+        </tr>
+        <tr>
+            <td>E-mail:</td>
+            <td colspan="2"><input type="text"></td>
+        </tr>
+        <tr>
+            <td colspan="3">Informações de Matrícula:</td>
+        </tr>
+        <tr>
+            <td>Série:</td>
+            <td>Turno:</td>
+            <td>Atividades Extracurriculares:</td>
+        </tr>
+        <tr>
+            <td>
+                <select>
+                    <option value="1">Pré-escolar</option>
+                    <option value="1">Ensino Fundamental</option>
+                    <option value="1">Ensino Médio</option>
+                </select>
+            </td>
+            <td>
+                <input type="radio" name="turno" id="tmanha">
+                <label for="tmanha">Manhã</label> <br>
+                <input type="radio" name="turno" id="ttarde">
+                <label for="ttarde">Tarde</label>
+            </td>
+            <td>
+                <input type="checkbox" id="inf">
+                <label for="inf">Informática</label> <br>
+                <input type="checkbox" id="musica">
+                <label for="musica">Música</label> <br>
+                <input type="checkbox" id="balet">
+                <label for="balet">Balet</label> <br>
+                <input type="checkbox" id="pintura">
+                <label for="pintura">Pintura</label> <br>
+                <input type="checkbox" id="judo">
+                <label for="judo">Judô</label> <br>
+                <input type="checkbox" id="fut">
+                <label for="fut">Futebol</label>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

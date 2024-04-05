@@ -1,0 +1,22 @@
+    .container{
+    display: flex;
+    height: 700px;
+    margin: 0 auto;
+    border: 10px solid;
+    }
+
+    .item{
+        width: 150px;
+        height: 150px;
+        background-color: gray;
+        padding: 1em;
+        font-weight: 700;
+        color: whitesmoke;
+        text-align: center;
+        border: 10px solid red;
+        border-radius: 10px;
+    }
+
+    .item3{
+        flex-shrink: 0;
+    }

@@ -1,0 +1,16 @@
+.H{
+    background-color: green;
+}
+
+.demais{
+    background-color: yellow;
+}
+.borda{
+    td{
+        width: 30px;
+        height: 30px;
+        text-align: center;
+    }
+    border: 1px solid black;
+    border-collapse: collapse;
+}

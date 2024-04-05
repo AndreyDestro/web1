@@ -1,0 +1,13 @@
+
+p {
+   font-family: arial,sans serif;
+   font-size: 16px;;
+   color: #333;
+}
+
+.destaque{
+background-color: yellow;
+border: 1px solid orange;
+padding: 10px;
+}
+
